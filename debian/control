@@ -7,7 +7,7 @@ Build-Depends: debhelper
 
 Package: clevo-airplane-mode
 Architecture: all
-Depends: ${misc:Depends}, bash (>= 4.2), rfkill, tuxedo-wmi-dkms, xorg-xmodmap
+Depends: ${misc:Depends}, bash (>= 4.2), rfkill, tuxedo-wmi-dkms, x11-xserver-utils
 Description: Clevo Airplane Mode button and LED handling.
  This package brings all needed to handle airplane mode button
  and led on Clevo laptops.
