@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+#DEBHELPER#
+
+# Script
+case "$1" in
+	remove|upgrade)
+		udevadm control --reload
+		xmodmap -e "keycode 247 = "
+		;;
+
+	*)
+		;;
+esac

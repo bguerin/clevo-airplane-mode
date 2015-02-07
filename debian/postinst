@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+#DEBHELPER#
+
+# Script
+case "$1" in
+	configure)
+		udevadm control --reload
+		/etc/X11/xinit/xinitrc.d/60-clevo-airplane-mode-button-xmodmap
+		;;
+
+	*)
+		# Other action, nothing to do
+		;;
+esac

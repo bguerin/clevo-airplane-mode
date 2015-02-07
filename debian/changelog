@@ -1,0 +1,7 @@
+clevo-airplane-mode (1.0.0) unstable; urgency=low
+
+  * Initial packaging release.
+    Based on upstream work of Koutheir Attouchi <koutheir at gmail dot com>
+    submitted on Tue, 20 May 2014 23:26:00 +0000
+
+ -- Benoit GUERIN <benoit.guerin@gmail.com>  Sat, 07 Feb 2015 10:00:00 +0100
